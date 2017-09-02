@@ -53,6 +53,7 @@ h1 {
 }
 
 h1#mbody {
+    font-family: sans;
     color: white;
 }
 
@@ -71,8 +72,10 @@ img {
 .footer {
     text-align : center;
     color : white;
-    margin-top: 100px;
-    margin-bottom: 10px;
+    padding: 10px 0;
+    bottom: 0;
+    margin-top: 105px;
+
 }
 
 .footer a {
