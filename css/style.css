@@ -57,12 +57,32 @@ h1#mbody {
     color: white;
 }
 
+h1#contact {
+    color: #333333;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 100px;
+}
+
+h2 {
+   color: #E0000E;
+   text-decoration: underline;
+   font-size: 42px;
+}
+
 p#intro {
     font-family: open sans;
     color: white;
     font-size: 15px;
     font-weight: inherit:
 }
+
+p#con {
+    font-size: 17px;
+    line-height: 22px;
+    font-weight: inherit;
+}
+
 
 img {
     margin: 35px auto;

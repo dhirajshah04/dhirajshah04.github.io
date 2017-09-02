@@ -1,0 +1,29 @@
+.cl {
+   list-style: none;
+   text-align: center;
+}
+
+ul.cl li {
+    border-bottom: 1px solid #eeeeee;
+    padding: 14px 22px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+ul.cl li a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.email {
+    background: url(../img/email.png) no-repeat center left;
+}
+
+.face {
+    background: url(../img/fb.png) no-repeat center left;
+}
+
+.twit {
+    background: url(../img/tw.png) no-repeat center left;
+}
