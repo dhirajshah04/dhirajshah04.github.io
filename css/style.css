@@ -1,3 +1,19 @@
 .navbar {
     background-color: #24292E;
 }
+
+.footer {
+    text-align : center;
+}
+
+a:hover#finsta {
+    color: #e95950;
+}
+
+a:hover#ffb {
+    color: #3b5998
+}
+
+a:hover#ftwitter {
+    color: #1dcaff;
+}
