@@ -20,7 +20,7 @@ body, html {
 
 .nav.navbar-nav.navbar-right li a {
     font-family : open sans;
-    color: white;
+    color: black;
     font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
@@ -30,7 +30,7 @@ body, html {
 /*navbar brand >> Dhiraj Shah */
 .nb {
     font-family: 'Dancing Script', cursive;
-    color:white;
+    color: black;
     font-size: 35px;
     font-weight: 500;
     text-transform: uppercase;
@@ -38,7 +38,7 @@ body, html {
 }
 
 .navbar-right {
-    padding-right: 125px;
+    padding-right: 26px;
     padding-top : 25px;
 }
 
@@ -52,10 +52,26 @@ h1 {
   text-align: center;
 }
 
+h1#mbody {
+    color: white;
+}
+
+p#intro {
+    font-family: open sans;
+    color: white;
+    font-size: 15px;
+    font-weight: inherit:
+}
+
+img {
+    margin: 35px auto;
+}
+
+
 .footer {
     text-align : center;
     color : white;
-    padding: 10px, 10px;
+    padding-bottom: 12px;
 }
 
 .footer a {
