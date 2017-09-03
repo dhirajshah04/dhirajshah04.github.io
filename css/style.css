@@ -8,7 +8,6 @@ body, html {
     height: 100%
     background-size: cover;
     background-position: center;
-    background-size: cover;
     background-image : url(../img/bg.jpg);
     background-attachment: fixed;
 }
@@ -16,6 +15,11 @@ body, html {
 .nav {
     background-color: transparent;
 
+}
+
+.nav.cont {
+    background-color: white;
+    border-bottom: 1px solid blue;
 }
 
 .nav.navbar-nav.navbar-right li a {
@@ -62,6 +66,7 @@ h1#contact {
     font-weight: bold;
     font-size: 80px;
     line-height: 100px;
+    font-family: droid sans;
 }
 
 h2 {
@@ -96,6 +101,14 @@ img {
 
 .footer a {
     color: white;
+}
+
+.footer.fcont{
+    color: black;
+}
+
+.footer.fcont a {
+    color: black;
 }
 
 a:hover#finsta {

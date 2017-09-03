@@ -16,7 +16,7 @@
 
     <!-- Navigation bar starts-->
 
-    <nav class="nav navbar-default">
+    <nav class="nav navbar-default cont">
         <div class="container">
             <div class="navbar-header navbar-left">
 
@@ -42,22 +42,40 @@
 
     <!-- Navigation bar ends-->
 
+    <!-- Form Starts Here -->
+
     <div class="header text-center">
         <h1 id="contact">Get In Touch</h1>
     </div>
     <br>
-    <div class="row">
-        <div class="col-md-7">
 
+
+    <div class="row">
+
+        <div class="col-md-7">
+            <form class="form-horizontal fm">
+                <div class="form-group">
+                    <lable class="control-label" for "email">Email :</lable>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                    <lable class="control-label" for "subject">Subject :</lable>
+                    <input type="subject" class="form-control" id="subject" required>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for "comment">comment</label>
+                    <textarea class="form-control" rows="5" id="comment" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
         </div>
 
         <div class="col-md-4">
             <h2> Keep Connected.</h2>
             <p id="con">You can fill out the form, or you can get in touch <br>
                 with me elsewhere:</p>
-
             <ul class="cl">
-                <li class="email">
+                <li class="emai">
                     <a href="mailto:dhiraj.shah04@gmail.com" title="Email Me">Email Me
                     </a>
                 </li>
@@ -70,11 +88,32 @@
                     </a>
                 </li>
             </ul>
-
-
         </div>
 
     </div>
+
+    <!-- Form Ends here -->
+<hr>
+    <!-- Footer Starts here -->
+    <footer class="footer fcont navbar-fixed-bottom">
+            <div class="row">
+                <div class="col-md-4">
+                    <p> Made By Dhiraj Shah</p>
+                </div>
+                <div class="col-md-4">
+                    <a id="ffb" href="http://facebook.com/dhiraj04" target="_blank"><i class="fa fa-facebook fa-fw fa-lg"></i></a>
+                    <a id ="ftwitter" href="http://twitter.com/dhirajnpl" target="_blank"><i class="fa fa-twitter fa-fw fa-lg"></i></a>
+                    <a id ="finsta" href="http://instagram.com/dhiraj04" target="_blank"><i class="fa fa-instagram fa-fw fa-lg"></i></a><br>
+                </div>
+                <div class="col-md-4">
+                    <p> All Rights Reserved 2017</p>
+                </div>
+            </div>
+        </footer>
+
+    <!-- Footer Ends Here -->
+
+
 
 
     <script src="bower_components/jquery/dist/jquery.min.js"></script>

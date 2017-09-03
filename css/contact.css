@@ -1,3 +1,18 @@
+body {
+   /* background-image : url(../img/cnt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%
+    background-attachment: fixed; */
+    background-color: #EBEDF3;
+}
+
+.fm {
+    margin-left: 77px;
+    margin-right: 60px;
+}
+
 .cl {
    list-style: none;
    text-align: center;
@@ -16,7 +31,7 @@ ul.cl li a:hover {
     text-decoration: none;
 }
 
-.email {
+.emai {
     background: url(../img/email.png) no-repeat center left;
 }
 
@@ -26,4 +41,11 @@ ul.cl li a:hover {
 
 .twit {
     background: url(../img/tw.png) no-repeat center left;
+}
+
+#footer{
+	position: relative;
+width: 100%;
+height: 100;
+top:123;
 }
